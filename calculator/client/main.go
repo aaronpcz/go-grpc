@@ -22,5 +22,6 @@ func main() {
 	// .. do somethings, at end, defer will close
 	
 	c := pb.NewCalculatorServiceClient(conn)
-	doSum(c)
+	// doSum(c)
+	doPrimes(c)
 }
